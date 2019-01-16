@@ -10,4 +10,5 @@ RUN apk add --no-cache texlive-full gmp libffi zlib pcre cmark@testing R R-dev c
   R -q -e 'install.packages("bookdown", repo="https://cran.rstudio.com/")' &&\
   rm -rf /tmp/*
 
+#
 CMD ["R"]
